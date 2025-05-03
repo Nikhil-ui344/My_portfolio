@@ -526,8 +526,7 @@
     font-family: Poppins;
 }
 
-/* Media Query for Mobile (max-width: 480px) */
-@media (max-width: 480px) {
+/* Media Query for Mobile (max-width: 480px) */@media (ax-width: 480px) {
     .linkedin {
         left: 5%;
         top: 1rem;
@@ -842,4 +841,156 @@
         gap: 1.5rem;
         font-size: clamp(1rem, 2vw, 1.5rem);
     }
+}
+/* Mobile responsiveness for screens up to 768px */
+@media (max-width: 768px) {
+
+    .linkedin, .github, .instagram, .e-mail {
+      position: static;
+      display: block;
+      margin: 10px auto;
+      text-align: center;
+    }
+  
+    .linkedin-parent {
+      width: 100%;
+      height: auto;
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .hero-section {
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+      font-size: 32px;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .i-am-nikhil-container,
+    .hello-world,
+    .i-make-ideas-container {
+      position: static;
+      width: 90%;
+      margin: 10px auto;
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    .image-icon {
+      position: static;
+      width: 80%;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+    }
+  
+    .im-nikhil-container {
+      position: static;
+      width: 90%;
+      height: auto;
+      font-size: 16px;
+      margin: 20px auto;
+    }
+  
+    .im-nikhil-an-engineering-stu-parent {
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+      padding: 20px;
+      font-size: 12px;
+    }
+  
+    .frame-child, .frame-item, .frame-inner {
+      width: 90%;
+      height: auto;
+      left: 0;
+      top: auto;
+      margin: 10px auto;
+      position: static;
+    }
+  
+    .skills, .programming-language, .tools-and-platforms1, .projects {
+      font-size: 24px;
+      text-align: center;
+      position: static;
+      margin: 10px 0;
+    }
+  
+    .html-and-css-container,
+    .git-and-git-container {
+      position: static;
+      width: 90%;
+      font-size: 20px;
+      margin: 10px auto;
+      text-align: center;
+    }
+  
+    .rectangle-parent,
+    .rectangle-group {
+      width: 100%;
+      height: auto;
+    }
+  
+    .view-resume,
+    .home,
+    .about,
+    .skills1,
+    .projects1,
+    .resume {
+      position: static;
+      text-align: center;
+      display: block;
+      margin: 10px auto;
+    }
+  
+    .copyright-2025-nikhil {
+      position: static;
+      font-size: 14px;
+      text-align: center;
+      margin-top: 30px;
+    }
+  
+    .instagram1,
+    .vector-icon1 {
+      display: none;
+    }
+  
+  }
+@media (max-width: 768px) 
+{
+    .github-icon, .linkedin-icon {
+        display: none;
+    }
+    .frame-child5 {
+        width: 90%;
+        left: 5%;
+        top: 70%;
+        height: 15%;
+    }
+    .contact-me {
+        left: 20%;
+        top: 75%;
+        font-size: clamp(0.9rem, 1.8vw, 1.2rem);
+    }
+    .group-icon {
+        left: 10%;
+        top: 75%;
+        width: 2.5rem;
+        height: 1.5rem;
+    }
+    .frame-child6 {
+        left: 10%;
+        top: 85%;
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+    .home-parent {
+        width: 95%;
+        max-width: 400px;
+        height: 90vh;
+    }  
 }
