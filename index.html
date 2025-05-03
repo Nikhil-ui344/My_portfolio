@@ -147,7 +147,7 @@
       			
       			<img class="github-icon" alt="" src="Github.svg" id="github">
       			
-      			<img class="linkedin-icon" alt="" src="Linkedin.svg">
+      			<img class="linkedin-icon" alt="" src="Linkedin.svg" id ="linkedin">
       			
       			<div class="frame-child5" id="rectangle">
       			</div>
@@ -245,7 +245,12 @@
         				window.open("https://www.instagram.com/nikhill_o6?igsh=MXF3d2gwYW5ieXQyZg==");
       			});
     		}
-    		
+    		var linkedin = document.getElementById("linkedin");
+			if(linkedin) {
+	  			linkedin.addEventListener("click", function () {
+						window.open("https://www.linkedin.com/in/nikhil-n-59264b2b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app");
+	  			});
+			}
     		var github = document.getElementById("github");
     		if(github) {
       			github.addEventListener("click", function () {
